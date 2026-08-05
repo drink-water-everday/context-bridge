@@ -1,0 +1,20 @@
+{
+  "name": "context-bridge-marketplace",
+  "interface": {
+    "displayName": "Context Bridge"
+  },
+  "plugins": [
+    {
+      "name": "context-bridge",
+      "source": {
+        "source": "local",
+        "path": "./plugins/context-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

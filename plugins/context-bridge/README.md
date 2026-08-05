@@ -75,3 +75,18 @@ printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}' | pyt
 ## Scope
 
 This first version is a context bridge. It does not pretend to provide a second Codex scheduler or a live second input box. Those behaviors belong to the Codex host.
+
+## Install from GitHub
+
+After the repository is pushed, add the Git Marketplace from the branch that contains the plugin:
+
+```bash
+codex plugin marketplace add drink-water-everday/context-bridge \
+  --ref codex/context-bridge \
+  --sparse .agents/plugins/marketplace.json \
+  --sparse plugins/context-bridge
+
+codex plugin add context-bridge@context-bridge-marketplace
+```
+
+Start a new Codex thread after installation so the Skill and MCP tools are loaded.

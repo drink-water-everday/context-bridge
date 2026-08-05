@@ -5,6 +5,8 @@
   "author": {
     "name": "Context Bridge contributors"
   },
+  "homepage": "https://github.com/drink-water-everday/context-bridge",
+  "repository": "https://github.com/drink-water-everday/context-bridge",
   "license": "MIT",
   "keywords": ["context", "memory", "codex", "threads", "projects", "mcp"],
   "skills": "./skills/",
