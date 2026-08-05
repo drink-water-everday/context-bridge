@@ -1,0 +1,26 @@
+{
+  "name": "context-bridge",
+  "version": "0.1.0",
+  "description": "Bridge selected context across Codex threads and projects without replacing Codex's native task model.",
+  "author": {
+    "name": "Context Bridge contributors"
+  },
+  "license": "MIT",
+  "keywords": ["context", "memory", "codex", "threads", "projects", "mcp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Context Bridge",
+    "shortDescription": "Reference and merge context across Codex threads.",
+    "longDescription": "Context Bridge stores explicit context capsules and task references so Codex can carry selected facts across threads and projects without duplicating Codex's native project or agent system.",
+    "developerName": "Context Bridge contributors",
+    "category": "Productivity",
+    "capabilities": ["Context", "Memory", "Cross-thread"],
+    "defaultPrompt": [
+      "Save the confirmed decisions from this turn as context.",
+      "List the context and tasks available in this scope.",
+      "Attach the relevant context to this thread without merging it."
+    ],
+    "brandColor": "#2563EB"
+  },
+  "mcpServers": "./.mcp.json"
+}
